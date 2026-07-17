@@ -5,6 +5,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=A566FF&center=true&vCenter=true&width=750&lines=Firmware+for+STM32+%2F+ESP32;RTOS+%7C+BLE+%7C+UART%2FSPI%2FI2C%2FCAN;Robotics+%7C+Industrial+Automation+%7C+IoT)](https://git.io/typing-svg)
 
 <a href="mailto:ameenulhasan2003@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/ameenulhasan/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/ameenulhasan2003"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Location-Chennai%2C%20India-A566FF?style=flat-square&logo=googlemaps&logoColor=white"/>
 
@@ -77,6 +78,13 @@ void motto(void) {
 ![WiFi](https://img.shields.io/badge/Wi--Fi-0082FC?style=for-the-badge&logo=wifi&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
 
+**Multimedia & Vision**
+
+![GStreamer](https://img.shields.io/badge/GStreamer-FF3131?style=for-the-badge&logo=gstreamer&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![MAVLink](https://img.shields.io/badge/MAVLink-4A00E0?style=for-the-badge)
+
 **Tools**
 
 ![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
@@ -116,23 +124,23 @@ void motto(void) {
 
 > `Embedded C` `C++` `STM32` `ESP32` `FreeRTOS` `BLE` `UART/SPI/I2C/CAN` `Wi-Fi` `GStreamer` `MAVLink`
 
-- Developed and debugged STM32/ESP32 firmware covering GPIO, UART, SPI, I2C, and CAN peripheral drivers, plus BLE and Wi-Fi application layers
-- Built modular, state-machine-based firmware architecture to improve maintainability and hardware bring-up speed
-- Researched GStreamer/RTSP video pipelines, H.264 hardware decoding, MAVLink telemetry, and Ground Control Station architecture for ROV systems
-- Owned technical documentation and validation planning across firmware architecture, error handling, and testing strategy
+- Developed embedded firmware for STM32 and ESP32-based systems, including modular, state-machine-driven architecture for maintainability
+- Built and integrated peripheral drivers for GPIO, UART, SPI, I2C, CAN, BLE, and Wi-Fi
+- Performed hardware bring-up, firmware debugging, and board-level validation
+- Contributed to robotics and underwater vehicle software involving telemetry, video streaming, and Ground Control Station applications
 
 </details>
 
 <details>
-<summary><b>🔹 Engineering Apprentice — Schneider Electric (Jul 2024 – Jan 2025)</b></summary>
+<summary><b>🔹 Engineering Apprentice — Schneider Electric, Chennai (Jul 2024 – Jan 2025)</b></summary>
 <br>
 
 > `Industrial Automation` `Electrical Testing` `Preventive Maintenance` `Quality Procedures`
 
-- Supported industrial automation activities and electrical panel testing workflows
-- Performed preventive maintenance and inspection on industrial equipment
-- Gained hands-on exposure to industrial manufacturing standards and QA procedures
-- Contributed to technical documentation supporting field operations
+- Assisted in industrial automation and electrical testing activities
+- Supported preventive maintenance and inspection of industrial equipment
+- Worked with technical documentation and manufacturing quality procedures
+- Gained practical exposure to industrial electrical systems and control equipment
 
 </details>
 
@@ -154,9 +162,9 @@ void motto(void) {
 
 | Project | Stack | Highlights |
 |---|---|---|
-| **[ESP32 BLE Audio Streaming & Motor Control System](https://github.com/ameenulhasan2003)** | ESP32-S3 · ESP-IDF · FreeRTOS · BLE · I2S · LittleFS | Custom BLE GATT service with MTU negotiation & packet validation, queue-based real-time audio buffering, LittleFS-backed WAV storage/playback, synchronized motor control + LED audio visualizer |
-| **[Student Drone Platform — Flight Controller Research](https://github.com/ameenulhasan2003)** | ESP32 · PID Control · IMU · Wi-Fi | Researched flight-controller architecture with ESP32-based control, PID tuning, and IMU sensor fusion; built a Wi-Fi browser control interface with state-machine-driven safety mechanisms |
-| **[Industrial Motor Control System](https://github.com/ameenulhasan2003)** | STM32F407 · FreeRTOS · PWM · ADC | Closed-loop temperature-based speed control using ADC sensor input and PWM generation, with FreeRTOS task scheduling for modular, real-time control |
+| **[ROV Ground Control Station — Live Video + Telemetry](https://github.com/ameenulhasan2003)** | Python · GStreamer · RTSP · MAVLink · FFmpeg · OpenCV · Raspberry Pi | Real-time GCS app receiving H.264 RTSP video with hardware-accelerated decoding; live MAVLink telemetry (depth, heading, attitude, GPS, battery) burned as an overlay onto the video and synchronously recorded in MKV, built to IMCA underwater-recording standards |
+| **[ESP32 BLE Audio Streaming & Motor Control System](https://github.com/ameenulhasan2003)** | ESP32-S3 · ESP-IDF · FreeRTOS · BLE · I2S · LittleFS | Custom BLE GATT service with MTU negotiation & packet validation, queue-based real-time audio buffering, LittleFS-backed WAV storage/playback with synchronized motor control and an LED audio visualizer |
+| **[Industrial Motor Control System](https://github.com/ameenulhasan2003)** | STM32F407 · FreeRTOS · PWM · ADC | Closed-loop, temperature-driven DC motor speed control with ADC sensing and PWM output, running on FreeRTOS multitasking for real-time operation |
 
 </div>
 
@@ -169,7 +177,7 @@ void motto(void) {
 | 🎓 | B.Tech ECE Graduate | B.S. Abdur Rahman Crescent Institute of Science and Technology, 2020 – 2024 |
 | 🔧 | Industrial Training | 6-month Embedded Systems & Architecture program, CloudKampus |
 | 🏭 | Corporate Apprenticeship | Schneider Electric — industrial automation & electrical testing |
-| 🛰️ | Applied Research | MAVLink telemetry, GStreamer/RTSP pipelines & GCS architecture for ROV systems |
+| 🌊 | ROV / GCS Development | Built a full real-time video + MAVLink telemetry pipeline to IMCA underwater-recording guidelines |
 | 🔌 | PCB Design | LM2596 buck converter PCB in KiCad — schematic, layout, DRC, manufacturing files |
 
 </div>
@@ -196,7 +204,7 @@ void motto(void) {
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ameenulhasan2003&color=A566FF&style=flat-square&label=Profile+Views)
 
-📫 **[ameenulhasan2003@gmail.com](mailto:ameenulhasan2003@gmail.com)** &nbsp;•&nbsp; 📍 Chennai, Tamil Nadu, India
+📫 **[ameenulhasan2003@gmail.com](mailto:ameenulhasan2003@gmail.com)** &nbsp;•&nbsp; 🔗 **[LinkedIn](https://www.linkedin.com/in/ameenulhasan/)** &nbsp;•&nbsp; 📍 Chennai, Tamil Nadu, India
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=120&section=footer&animation=fadeIn)
 
